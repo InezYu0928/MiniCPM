@@ -16,11 +16,11 @@ This repository utilizes the following datasets:
 
 ## Repository Structure
 
-- **Cleandata**: Contains separately reconstructed datasets from Cosmos, Trivia QA Wikipedia, and Trivia QA Web. Data is reformatted into standard question-answer pairs.
-- **Mergedata**: Represents a composite dataset split into train, development, and test datasets derived from the cleaned datasets.
-- **Finetune**: Contains all the code necessary for the complete process of fine-tuning the base model. To produce a fine-tuned model, use `bash {}_finetune.sh`.
-- **Models**: Stores examples of the base and fine-tuned models.
-- **Evaluate**: Contains codes and sample data for evaluating the fine-tuned model's performance on given datasets. Results are stored in the `result` folder.
+- **cleandata**: Contains separately reconstructed datasets from Cosmos, Trivia QA Wikipedia, and Trivia QA Web. Data is reformatted into standard question-answer pairs.
+- **mergedata**: Represents a composite dataset split into train, development, and test datasets derived from the cleaned datasets.
+- **finetune**: Contains all the code necessary for the complete process of fine-tuning the base model. To produce a fine-tuned model, use `bash {}_finetune.sh`.
+- **models**: Stores examples of the base and fine-tuned models.
+- **evaluate**: Contains codes and sample data for evaluating the fine-tuned model's performance on given datasets. Results are stored in the `result` folder.
 
 ## Usage
 
