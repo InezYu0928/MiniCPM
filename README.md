@@ -28,7 +28,7 @@ To finetune the base model, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/MiniCPM_FT.git
+   git clone https://github.com/InezYu0928/MiniCPM_FT.git
    ```
 
 2. Navigate to the Finetune folder:
